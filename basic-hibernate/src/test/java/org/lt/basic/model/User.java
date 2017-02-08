@@ -24,5 +24,10 @@ public class User {
 	public void setUsername(String username) {
 		this.username = username;
 	}
+	public User(int id, String username) {
+		super();
+		this.id = id;
+		this.username = username;
+	}
 	
 }
